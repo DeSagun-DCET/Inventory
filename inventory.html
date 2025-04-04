@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management System</title>
+</head>
+<link rel="stylesheet" href="inventory.css">
+
+<body>
+    <div class="top">
+        <div class="title" style="color: #ffffff;">
+          Inventory Management System</div>
+    
+        <div class="search">
+          <input type="text" placeholder="Search here" />
+          <button>Search</button>
+        </div>
+        <div class="search2">
+          <button class="plus">Add Item </button>
+        </div>
+    </div>
+<div>
+    <div class="cntnt1">
+        <p class="cntnt2">Current Inventory</p>
+        <div class="cnt">
+        <p class="fix">Search by:</p>
+        <p class="fix">Sort by:</p>
+        <p class="fix" style="margin-left: 10px;">Sort by Price:</p>
+        </div>
+
+        <div class="option">
+        <select class="option1">
+          <option disabled selected>Select Product</option>
+          <option value="one">Chicken</option>
+          <option value="two">Pork</option>
+          <option value="three">Beef</option>
+        </select>
+
+        <select class="option1">
+          <option disabled selected>Quantity</option>
+          <option value="one">1</option>
+          <option value="two">3</option>
+          <option value="three">5</option>
+        </select>
+
+        <select class="option1">
+          <option disabled selected>Price</option>
+          <option value="one">100$</option>
+          <option value="two">1000$</option>
+          <option value="three">10000$</option>
+        </select>
+    </div>
+
+    <table style="width:100%">
+        <tr>
+            <th colspan="6" class="headtitle">Product</th>               
+        </tr>
+        <tr>
+            <th>Name of Product:</th>
+            <th>Details:</th>
+            <th>Price:</th>
+            <th>Quantity:</th>
+            <th>Date</th>
+            <th>Edit/Remove</th>
+        </tr>
+        <tr>
+            <td>1. Pork</td>
+            <td>Fresh</td>
+            <td style="text-align:center">100$</td>
+            <td>3</td>
+            <td>3-29-25</td>
+            <td>
+              <button>
+                <p>Edit</p>
+              </button> 
+              <button>
+                <p>Remove</p>
+              </button> 
+            </td>
+        </tr>
+        <tr>
+            <td>2. Chicken</td>
+            <td>Fresh</td>
+            <td style="text-align:center">1000$</td>
+            <td>1</td>
+            <td>3-29-25</td>
+            <td>
+              <button>
+                <p>Edit</p>
+              </button> 
+              <button>
+                <p>Remove</p>
+              </button>          
+            </td>
+        </tr>
+    </table>
+    <div class="copyright">
+      <p>@2025 De Sagun, Yrmand Li R. DCET 1-1</p>
+    </div>
+    
+
+
+</div>
+</body>
+</html>
