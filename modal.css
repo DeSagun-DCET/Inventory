@@ -1,0 +1,51 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f4b121;
+  }
+  
+  .modal {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #f1c514;
+    border-radius: 8px;
+    margin: 50px auto;
+    background-color: #fffffe;
+  }
+  
+  .modal h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 12px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 4px;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  .butt{
+    background-color: #f8f017;
+  }
+
+  .butt:hover{
+    background-color: #f4b121;
+  }
+  
+  button {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
